@@ -1,0 +1,22 @@
+{
+  "name": "skin-generator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "idb": "^8.0.4",
+    "preact": "^11.0.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.7"
+  }
+}
